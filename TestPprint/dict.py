@@ -10,4 +10,6 @@ pprint(b)
 c = {**a , **b}
 pprint(c)
 
-pprint({**a, **b, **{'foo':'bar'}})
+pprint({**a, **b, **{'foo':'bar'}, "a":None})
+
+pprint({**a, "a": 2})
